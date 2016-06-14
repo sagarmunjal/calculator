@@ -4,33 +4,30 @@
         <script type="text/javascript" src="script.js"></script>
     </head>	
      <body>
-     	 <table>
-     	 	 <tr>
-     	 	 	<td><button onclick="getVal()">9</button></td>
-     	 	 	<td><button onclick="">8</button></td>
-     	 	 	<td><button onclick="">7</button></td>
-     	 	 	<td><button onclick="">/</button></td>
+     	 
 
-     	 	 </tr>
-     	 	 <tr>
-     	 	 	<td><button onclick="">6</button></td>
-     	 	 	<td><button onclick="">5</button></td>
-     	 	 	<td><button onclick="">4</button></td>
-     	 	 	<td><button onclick="">*</button></td>
-     	 	 </tr>
-     	 	 <tr>
-     	 	 	<td><button onclick="">3</button></td>
-     	 	 	<td><button onclick="">2</button></td>
-     	 	 	<td><button onclick="">1</button></td>
-     	 	 	<td><button onclick="">+</button></td>
+<form name='calc'>
+<input name='result'></br>
+<input type='button' value='1' onclick="run1()">
+<input type='button' value='2' onclick="run2()">
+<input type='button' value='3' onclick="run3()">
+<input type='button' value='+' onclick="plus()">
+</br>
+<input type='button' value='4' onclick="run4()">
+<input type='button' value='5' onclick="run5()">
+<input type='button' value='6' onclick="run6()">
+<input type='button' value='-' onclick="diff()">
+</br>
+<input type='button' value='7' onclick="run7()">
+<input type='button' value='8' onclick="run8()">
+<input type='button' value='9' onclick="run9()">
+<input type='button' value='/' onclick="divide()">
+</br>
+<input type='button' value='=' onclick="equalsto()">
+<input type='button' value='%' onclick="remainder()">
 
-     	 	 </tr>
-     	 	 <tr>
-     	 	 	<td onclick=""></td>
-                <td><button onclick="">0</button></td>
-                <td><button onclick="">=</button></td>
-                <td><button onclick="">-</button></td>
-     	 	 </tr>	
-     	 </table>	
+<input type='button' value='C' onclick="clear()">
+
+</form>
      </body>	
 </html>
