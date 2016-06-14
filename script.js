@@ -37,7 +37,7 @@ document.calc.result.value += "/";
 function remainder(){
 document.calc.result.value += "%";
 }
-function clear(){
+function clearAll(){
   document.calc.result.value = null;
 }
 function equalsto(){
